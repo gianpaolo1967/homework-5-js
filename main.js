@@ -72,8 +72,8 @@ function getCharCode() {
   var charcodeWr = document.getElementById('charcode-write');
   var charcodeArr = charcode.value.split(', ');
   for (var i = 0; i < charcodeArr.length; i++) {
-    charcodeWr.innerHTML += charcode.value.charCodeAt(charcodeArr[i]);
+    charcodeWr.innerHTML += charcode.value.charCodeAt([i]) + ', ';
   }
-  
+
   console.log([i]);
 }
