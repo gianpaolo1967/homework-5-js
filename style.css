@@ -1,0 +1,62 @@
+html {
+  font-size: 16px;
+}
+.ex {
+  width: 80%;
+} 
+h2 {
+  text-align: center;
+  transition: 1s;
+}
+h2:hover {
+  color: #1aa882;
+  transition: 0.5s;
+}
+.flex-sort {
+  margin-left: 5%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  display: block;
+  text-align: center;
+}
+.up a {
+	color: #fff;
+}
+.up.show {
+	visibility: visible;
+  cursor: pointer;
+	opacity: 0.7;
+}
+.up {
+  visibility: hidden;
+  height: 3rem;
+  width: 3rem;
+  font-size: 2em;
+  text-decoration: underline;
+  line-height: 2.5rem;
+  background: #1aa882;
+  border-radius: 50%;
+  position: fixed;
+  top: 80%;
+  left: 88%;
+  text-align: center;
+  transition: 0.1s;
+}
+button {
+  width: 50%;
+  margin-left:29%;
+  margin-top: 5px;
+}
+.btn-group {
+  margin-top: 50px;
+}
+img {
+  margin-left: 2%;
+  height: 225px;
+  width: 25%;
+}

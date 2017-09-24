@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="materialize/css/materialize.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="flex-sort">
+    <div class="ex">
+      <h2>Exercise 1</h2>
+      <input type="text" id="input1">
+      <p id="pEx1"></p>
+
+    </div>
+
+  </div>
+
+  <hr>
+
+  <div class="flex-sort">
+    <div class="ex">
+      <h2>Exercise 2</h2>
+      <button class="btn" id="img-btn">show img</button>
+      <p id="show-img"></p>
+
+    </div>
+
+  </div>
+
+  <hr>
+
+  <div class="flex-sort">
+    <div class="ex">
+      <h2>Exercise 3, 4</h2>
+      <button class="btn" id="exclude">show domain</button>
+      <input id="url" type="text">
+      <p id="show-dom"></p>
+
+    </div>
+
+  </div>
+
+  <hr>
+
+  <div class="flex-sort">
+    <div class="ex">
+      <h2>Exercise 5</h2>
+      <button class="btn" id="login">login</button>
+      <form action="">
+        <input type="text" id="name">
+        <input type="password" id="pass">
+        <input type="email" id="email">
+
+      </form>
+
+    </div>
+
+  </div>
+
+  <hr>
+
+  <div class="flex-sort">
+    <div class="ex">
+      <h2>Exercise 6</h2>
+      <button class="btn" id="showCharcode">show charcode</button>
+      <input type="text" id="char-code" placeholder="split '', ''">
+      <p id="charcode-write"></p>
+    </div>
+
+  </div>
+
+  <hr>
+
+  
+
+  <div class="up">
+    <a href="#top">&uarr;</a>
+  </div>
+  <script src="main.js">
+
+  </script>
+  <script>
+		$(function(){
+
+	$(document).on( 'scroll', function(){
+
+		if ($(window).scrollTop() > 100) {
+			$('.up').addClass('show');
+		}
+		else {
+			$('.up').removeClass('show');
+		}
+	});
+});
+	</script>
+</body>
+</html>
